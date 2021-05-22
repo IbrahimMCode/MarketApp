@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentRight="false"
+    android:layout_alignParentBottom="false"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    app:flow_horizontalAlign="center"
+    app:flow_verticalAlign="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/orderhistory_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:padding="4dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/maincategory_name"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/orderhistory_image"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:lines="2"
+                android:text="TextView"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MarketApp</string>
+    <string name="openNavDrawer">Open Drawer</string>
+    <string name="closeNavDrawer">Close Drawer</string>
+    <string name="google_maps_key">AIzaSyBi2G2tFQGCu7BXZ7dyVLtp6rM-OkbJqK4</string>
+    <string name="accepting_orders">Accepting Orders</string>
+    <string name="not_accepting_orders">Not Accepting Orders</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="tab_text_1">Order History</string>
+    <string name="tab_text_2">My Profile</string>
+
+</resources>
